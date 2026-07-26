@@ -19,7 +19,6 @@ Output*/
 # Generated PDFs and archives
 *.zip
 *.rar
-*.[Pp][Dd][Ff]
 
 # ----------------------------------------------------------------------
 # Log, Error, and Report Files
