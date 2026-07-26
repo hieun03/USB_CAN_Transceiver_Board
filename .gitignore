@@ -1,0 +1,46 @@
+# Altium Designer .gitignore
+
+# ----------------------------------------------------------------------
+# History and Auto-Save (Creates massive repo bloat)
+# ----------------------------------------------------------------------
+History/
+__Previews/
+__Recovery/
+
+# ----------------------------------------------------------------------
+# Generated Outputs (Gerbers, NC Drill, Pick & Place, BOMs)
+# ----------------------------------------------------------------------
+# Output folders usually start with "Project Outputs"
+Project Outputs*/
+Project Outputs for*/
+Outputs*/
+Output*/
+
+# Generated PDFs and archives
+*.zip
+*.rar
+*.[Pp][Dd][Ff]
+
+# ----------------------------------------------------------------------
+# Log, Error, and Report Files
+# ----------------------------------------------------------------------
+*.[Ll][Oo][Gg]
+*.[Ee][Rr][Rr]
+*.[Rr][Ee][Pp]
+*.htm
+*.html
+
+# ----------------------------------------------------------------------
+# Temporary and Lock Files (Prevents merge conflicts)
+# ----------------------------------------------------------------------
+~$*
+~*.*
+*.SchDocPreview
+*.PcbDocPreview
+
+# ----------------------------------------------------------------------
+# Compilation and Rule checks
+# ----------------------------------------------------------------------
+*.RUL
+*.apr
+*.PrjPcbStructure
